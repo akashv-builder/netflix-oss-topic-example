@@ -1,0 +1,11 @@
+http://localhost:8765/display-topic-service/all-topics
+
+it goes to zull finds the display topic...then from display topic internally hit the zull again to get the topic
+
+API-GATEWAY-ZULL 8765
+DISPLAY-TOPIC-SERVICE 9000
+TOPIC-SERVICE 8000
+Eureka http://localhost:8761/
+
+url of config server
+localhost:8888/topic-service/default
